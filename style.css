@@ -1,3 +1,6 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 #container {
     display: flex;
     flex-direction: column;
@@ -5,6 +8,21 @@
     justify-content: center;
 }
 
+#app button {
+    background-color: #2b04d6; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+#app button:hover{
+    background-color: #696e6c; /* Green */
+}
 #taskList {
     display: flex;
     flex-direction: row;
