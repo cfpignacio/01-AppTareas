@@ -1,0 +1,37 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#taskList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+#taskList div {
+    background-color: rgb(201, 207, 207);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+#taskList div button{
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+#taskList div button:hover{
+    background-color: #696e6c; /* Green */
+
+}
