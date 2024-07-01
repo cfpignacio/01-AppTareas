@@ -1,12 +1,17 @@
-# front-tareas
- - numero 1 
- - numero 2
+## Tareas APP 📕✏️
+
+- Clonar proyecto
+- 
   ```
+  npm install
+  ```
+
+    ```
+  npm run server
+  ```
+    ```
   npm run dev
   ```
 
-  **negrita**
-🐸
-*texto*
 
-🤔💀
+- Ingresar http://localhost:5173/
